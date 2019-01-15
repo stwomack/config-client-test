@@ -10,13 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication(exclude = { SecurityAutoConfiguration.class })
 public class DemoApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
-
 }
-
 
 @RefreshScope
 @RestController
